@@ -44,8 +44,6 @@ namespace Lykke.Common.Entities.Dictionaries
     public interface IMarginTradingAssetsRepository
     {
         Task<IEnumerable<IMarginTradingAsset>> GetAllAsync();
-        Task<IEnumerable<MarginTradingAsset>> GetAllAsync(List<string> instruments);
-
-        Task AddAsync(IMarginTradingAsset asset);
+        Task<IEnumerable<IMarginTradingAsset>> GetAllAsync(List<string> instruments);
     }
 }
