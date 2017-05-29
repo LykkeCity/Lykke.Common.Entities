@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
+	<Version>1.0.1</Version>
     <Authors>Lykke</Authors>
     <Company>Lykke</Company>
     <Description>The package contains entities and interfaces for different projects.</Description>
