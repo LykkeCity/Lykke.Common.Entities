@@ -29,7 +29,7 @@
         public string AssetPair { get; }
         public double Bid { get; private set; }
         public double Ask { get; private set; }
-
+        public int Accuracy { get; set; }
         public bool IsReady()
         {
             return _filledBit && _filledAsk;
