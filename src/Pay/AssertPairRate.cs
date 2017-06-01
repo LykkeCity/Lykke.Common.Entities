@@ -4,7 +4,10 @@
         private bool _filledBit;
         private bool _filledAsk;
 
-
+        public AssertPairRate()
+        {
+            
+        }
         public AssertPairRate(AssertPairRate source)
         {
             if (source == null)
