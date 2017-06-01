@@ -41,7 +41,7 @@
             }
         }
 
-        public string AssetPair { get; }
+        public string AssetPair { get; set; }
         public float Bid { get; set; }
         public float Ask { get; set; }
         public int Accuracy { get; set; }
