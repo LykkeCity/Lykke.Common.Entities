@@ -5,7 +5,19 @@
         private bool _filledAsk;
 
 
+        public AssertPairRate(AssertPairRate source)
+        {
+            if (source == null)
+            {
+                return;
+            }
 
+            AssetPair = source.AssetPair;
+            Bid = source.Bid;
+            Ask = source.Ask;
+            Accuracy = Accuracy;
+            _filledBit = _filledAsk = true;
+        }
         public AssertPairRate(IPairRate source)
         {
             AssetPair = source.AssetPair;

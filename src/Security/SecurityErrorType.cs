@@ -6,6 +6,7 @@
         MerchantUnknown,
         SignEmpty,
         SignIncorrect,
-        OutOfDate
+        OutOfDate,
+        AssertEmpty
     }
 }
