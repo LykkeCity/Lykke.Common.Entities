@@ -18,7 +18,7 @@
             AssetPair = source.AssetPair;
             Bid = source.Bid;
             Ask = source.Ask;
-            Accuracy = Accuracy;
+            Accuracy = source.Accuracy;
             _filledBit = _filledAsk = true;
         }
         public AssertPairRate(IPairRate source)
