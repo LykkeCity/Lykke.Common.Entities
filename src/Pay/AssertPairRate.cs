@@ -26,21 +26,21 @@
 
         public void FillRate(IPairRate source)
         {
-            if ((bool)source.IsBuy)
+            if (source.IsBuy)
             {
-                Bid = source.Price;
+                Bid = (float)source.Price;
                 _filledBit = true;
             }
             else
             {
-                Ask = source.Price;
+                Ask = (float)source.Price;
                 _filledAsk = true;
             }
         }
 
         public string AssetPair { get; }
-        public double Bid { get; private set; }
-        public double Ask { get; private set; }
+        public float Bid { get; set; }
+        public float Ask { get; set; }
         public int Accuracy { get; set; }
         public bool IsReady()
         {
