@@ -8,7 +8,6 @@ namespace Lykke.Common.Entities.Pay
     {
         public float Percent { get; set; }
         public int Pips { get; set; }
-        public float FixedFee { get; set; }
 
     }
 }
