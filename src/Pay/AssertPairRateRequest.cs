@@ -6,7 +6,7 @@ namespace Lykke.Common.Entities.Pay
 {
     public class AssertPairRateRequest
     {
-        public float Persent { get; set; }
+        public float Percent { get; set; }
         public int Pips { get; set; }
         public float FixedFee { get; set; }
 
