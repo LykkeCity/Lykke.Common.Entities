@@ -7,6 +7,6 @@ namespace Lykke.Common.Entities.Pay
     public class GenerateAddressRequest
     {
         public string MerchantId { get; set; }
-        public string AssertIdId { get; set; }
+        public string AssertId { get; set; }
     }
 }
