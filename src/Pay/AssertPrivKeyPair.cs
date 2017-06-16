@@ -8,5 +8,7 @@ namespace Lykke.Common.Entities.Pay
     {
         public string AssertId { get; set; }
         public string PrivateKey { get; set; }
+        public string PublicLey { get; set; }
+        public string Address { get; set; }
     }
 }
