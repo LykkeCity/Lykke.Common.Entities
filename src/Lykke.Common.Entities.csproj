@@ -12,6 +12,7 @@
     <PackageProjectUrl>https://github.com/LykkeCity/Lykke.Common.Entities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/LykkeCity/LykkeRepositories.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <RootNamespace>Lykke.Contracts</RootNamespace>
   </PropertyGroup>
 
 </Project>
