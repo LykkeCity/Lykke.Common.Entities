@@ -1,4 +1,4 @@
-﻿namespace Lykke.Common.Entities.Security
+﻿namespace Lykke.Contracts.Security
 {
     public class MerchantAuthRequest
     {

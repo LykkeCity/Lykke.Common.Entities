@@ -1,4 +1,4 @@
-﻿namespace Lykke.Common.Entities.Pay
+﻿namespace Lykke.Contracts.Pay
 {
     public class AssertPairRate { 
         private bool _filledBit;

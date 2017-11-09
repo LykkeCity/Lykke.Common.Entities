@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Lykke.Common.Entities.Dictionaries
+namespace Lykke.Contracts.Dictionaries
 {
     public interface IMarginTradingAsset
     {

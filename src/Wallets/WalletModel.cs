@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Lykke.Common.Entities.Wallets
+﻿namespace Lykke.Contracts.Wallets
 {
     public class WalletModel
     {

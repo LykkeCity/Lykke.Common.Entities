@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
-using System.Text;
 
-namespace Lykke.Common.Entities.Security
+namespace Lykke.Contracts.Security
 {
     public static class RSAParametersExt
     {

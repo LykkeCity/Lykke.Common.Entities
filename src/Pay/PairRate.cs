@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Lykke.Common.Entities.Pay
+namespace Lykke.Contracts.Pay
 {
     public class PairRate : IPairRate
     {
