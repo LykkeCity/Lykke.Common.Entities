@@ -3,6 +3,6 @@
     public enum OperationType
     {
         Transfer,
-        Payment
+        VisaCardPayment
     }
 }
