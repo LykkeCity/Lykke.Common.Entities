@@ -42,8 +42,8 @@
         }
 
         public string AssetPair { get; set; }
-        public float Bid { get; set; }
-        public float Ask { get; set; }
+        public double Bid { get; set; }
+        public double Ask { get; set; }
         public int Accuracy { get; set; }
         public bool IsReady()
         {
