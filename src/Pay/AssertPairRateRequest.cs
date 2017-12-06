@@ -2,7 +2,7 @@
 {
     public class AssertPairRateRequest
     {
-        public float Percent { get; set; }
+        public double Percent { get; set; }
         public int Pips { get; set; }
 
     }
