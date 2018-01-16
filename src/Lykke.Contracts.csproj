@@ -8,9 +8,9 @@
     <Description>The package contains entities and interfaces for different projects.</Description>
     <Copyright>@2017 - Lykke</Copyright>
     <PackageIconUrl>https://avatars3.githubusercontent.com/u/14153330?v=3&amp;s=200</PackageIconUrl>
-    <PackageLicenseUrl>https://github.com/LykkeCity/Lykke.Common.Entities</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/LykkeCity/Lykke.Common.Entities</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/LykkeCity/LykkeRepositories.git</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/LykkeCity/Lykke.Contracts</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/LykkeCity/Lykke.Contracts</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/LykkeCity/Lykke.Contracts.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <RootNamespace>Lykke.Contracts</RootNamespace>
   </PropertyGroup>

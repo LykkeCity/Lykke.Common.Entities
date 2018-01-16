@@ -4,6 +4,7 @@
     {
         Transfer,
         Cashout,
-        VisaCardPayment
+        VisaCardPayment,
+        NewOrder
     }
 }
