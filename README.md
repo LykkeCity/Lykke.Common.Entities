@@ -1,2 +1,2 @@
-# Lykke.Common.Entities
-The project describes common entities for Lykke projects
+# Lykke.Contracts
+The project describes common entities and contracts for Lykke projects
