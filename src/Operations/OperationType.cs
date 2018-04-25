@@ -5,6 +5,7 @@
         Transfer,
         Cashout,
         VisaCardPayment,
-        NewOrder
+        NewOrder,
+        Payment
     }
 }
