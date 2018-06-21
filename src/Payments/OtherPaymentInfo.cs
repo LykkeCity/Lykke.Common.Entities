@@ -13,6 +13,7 @@
         public string DateOfBirth { get; set; }
         public string OkUrl { get; set; }
         public string FailUrl { get; set; }
+        public string CancelUrl { get; set; }
 
         public static OtherPaymentInfo Create(
             string firstName,
@@ -25,7 +26,8 @@
             string contactPhone,
             string dateOfBirth,
             string okUrl = null,
-            string failUrl = null)
+            string failUrl = null,
+            string cancelUrl = null)
         {
             return new OtherPaymentInfo
             {
@@ -39,7 +41,8 @@
                 ContactPhone = contactPhone,
                 DateOfBirth = dateOfBirth,
                 OkUrl = okUrl,
-                FailUrl = failUrl
+                FailUrl = failUrl,
+                CancelUrl = cancelUrl
             };
         }
     }

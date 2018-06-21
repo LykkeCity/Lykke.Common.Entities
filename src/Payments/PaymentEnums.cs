@@ -18,6 +18,7 @@
         Created,
         NotifyProcessed,
         NotifyDeclined,
+        NotifyCancelled,
         Processing
     }
 
