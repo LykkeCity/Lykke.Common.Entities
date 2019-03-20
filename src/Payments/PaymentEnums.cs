@@ -10,7 +10,8 @@
         SolarCoin,
         ChronoBank,
         Fxpaygate,
-        Quanta
+        Quanta,
+        EasyPaymentGateway
     }
 
     public enum PaymentStatus
@@ -24,6 +25,6 @@
 
     public enum CardPaymentSystem
     {
-        Unknown, CreditVoucher, Fxpaygate
+        Unknown, CreditVoucher, Fxpaygate, EasyPaymentGateway
     }
 }
