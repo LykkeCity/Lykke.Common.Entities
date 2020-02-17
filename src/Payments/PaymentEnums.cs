@@ -11,7 +11,8 @@
         ChronoBank,
         Fxpaygate,
         Quanta,
-        EasyPaymentGateway
+        EasyPaymentGateway,
+        Link4Pay
     }
 
     public enum PaymentStatus
@@ -25,6 +26,6 @@
 
     public enum CardPaymentSystem
     {
-        Unknown, CreditVoucher, Fxpaygate, EasyPaymentGateway
+        Unknown, CreditVoucher, Fxpaygate, EasyPaymentGateway, Link4Pay
     }
 }
