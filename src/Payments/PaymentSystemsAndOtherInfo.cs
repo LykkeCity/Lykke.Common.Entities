@@ -9,7 +9,8 @@ namespace Lykke.Contracts.Payments
         {
             [CashInPaymentSystem.CreditVoucher] = typeof(OtherPaymentInfo),
             [CashInPaymentSystem.Fxpaygate] = typeof(OtherPaymentInfo),
-            [CashInPaymentSystem.EasyPaymentGateway] = typeof(OtherPaymentInfo)
+            [CashInPaymentSystem.EasyPaymentGateway] = typeof(OtherPaymentInfo),
+            [CashInPaymentSystem.Link4Pay] = typeof(OtherPaymentInfo)
         };
     }
 }
